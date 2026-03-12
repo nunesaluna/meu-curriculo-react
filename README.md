@@ -1,6 +1,6 @@
 # 🚀 Currículo Online Profissional - Natalia Nunes Alves
 
-Este é o meu currículo interativo desenvolvido como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas**. O objetivo foi criar uma interface moderna, responsiva e de alta performance utilizando o ecossistema React.
+Este é o meu currículo interativo desenvolvido como parte dos meus estudos em Front-end. O objetivo foi criar uma interface moderna, responsiva e de alta performance utilizando o ecossistema React.
 
 ## 🛠️ Tecnologias Utilizadas
 
