@@ -72,12 +72,12 @@ const App = () => {
                 <div>
                   <p className="text-blue-600 font-extrabold text-base">2025 — 2027</p>
                   <p className="font-bold text-gray-800 uppercase leading-tight">Análise e Des. de Sistemas</p>
-                  <p className="text-gray-500">Uninter (Previsão)</p>
+                  <p className="text-gray-500">Uninter</p>
                 </div>
                 <div>
                   <p className="text-blue-600 font-extrabold text-base">2025 — 2026</p>
-                  <p className="font-bold text-gray-800 uppercase leading-tight">Front-End em React</p>
-                  <p className="text-gray-500">IFMG (Certificação)</p>
+                  <p className="font-bold text-gray-800 uppercase leading-tight">Certificação Front-End em React</p>
+                  <p className="text-gray-500">IFMG</p>
                 </div>
               </div>
             </section>
