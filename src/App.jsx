@@ -23,7 +23,7 @@ const App = () => {
 
           <div className="text-center md:text-left mt-4 md:mt-8">
             <h1 className="font-bold text-3xl md:text-5xl uppercase tracking-wider">
-              Natalia Nunes Alves
+              Natália Nunes Alves
             </h1>
             <p className="text-xl text-blue-400 font-semibold mt-2">
               Estudante de Análise e Desenvolvimento de Sistemas
