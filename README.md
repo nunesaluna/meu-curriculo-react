@@ -1,4 +1,4 @@
-# 🚀 Currículo Online Profissional - Natalia Nunes Alves
+# 🚀 Currículo Online Profissional 
 
 Este é o meu currículo desenvolvido como parte dos meus estudos em Front-end. O objetivo foi criar uma interface moderna, responsiva e de alta performance utilizando o ecossistema React.
 
