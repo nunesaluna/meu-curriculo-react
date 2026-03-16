@@ -9,7 +9,6 @@ O projeto foi construído utilizando as ferramentas mais modernas do desenvolvim
 * **React.js**: Biblioteca principal para construção da interface.
 * **Vite**: Ferramenta de build ultra-rápida.
 * **Tailwind CSS**: Framework utilitário para estilização avançada e responsividade.
-* **Lucide React / Icons**: Para ícones modernos e minimalistas.
 * **CSS Grid & Flexbox**: Para garantir um layout fluido em qualquer tamanho de tela.
 
 ## 📱 Funcionalidades
