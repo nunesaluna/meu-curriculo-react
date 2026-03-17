@@ -15,6 +15,6 @@ O projeto foi construído utilizando as ferramentas mais modernas do desenvolvim
 
 - [x] **Design Responsivo**: Adaptado para Celulares, Tablets e Desktops.
 - [x] **Seções Dinâmicas**: Experiência, Educação e Tech Stack organizados.
-- [x] **Diferenciais Técnicos**: Cards estilizados focados em performance e layouts modernos.
+- [x] **Diferenciais Técnicos**: Cards estilizados dando ênfase aos diferenciais.
 - [x] **Deploy Automatizado**: Publicação contínua via Vercel.
 
