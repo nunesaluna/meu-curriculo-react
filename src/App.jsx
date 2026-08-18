@@ -26,7 +26,7 @@ const App = () => {
               Natália Nunes Alves
             </h1>
             <p className="text-xl text-blue-400 font-semibold mt-2">
-              Estudante de Análise e Desenvolvimento de Sistemas
+              Futura Desenvolvedora Full Stack
             </p>
           </div>
         </div>
@@ -58,7 +58,10 @@ const App = () => {
             <section>
               <h2 className="text-xl font-bold text-slate-800 border-b-2 border-blue-500 pb-2 mb-4 uppercase">Tech Stack</h2>
               <div className="flex flex-wrap gap-2">
-                {['React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'CSS Grid', 'Flexbox'].map((skill) => (
+                {[
+                  'React', 'Vite', 'JavaScript', 'HTML5', 'CSS3', 'Node.js', 'NPM',
+                  'Git', 'GitHub', 'Vercel', 'AWS Cloud', 'Python', 'Java', 'SQL', 'Neo4j', 'UML'
+                ].map((skill) => (
                   <span key={skill} className="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full">
                     {skill}
                   </span>
@@ -77,7 +80,13 @@ const App = () => {
                 <div>
                   <p className="text-blue-600 font-extrabold text-base">2025 — 2026</p>
                   <p className="font-bold text-gray-800 uppercase leading-tight">Certificação Front-End em React</p>
-                  <p className="text-gray-500">IFMG</p>
+                  <p className="text-gray-500">IFMG (144h)</p>
+                </div>
+                <div>
+                  <p className="text-blue-600 font-extrabold text-base">2026</p>
+                  <p className="font-bold text-gray-800 uppercase leading-tight">Formação Complementar</p>
+                  <p className="text-gray-500">AWS Academy (Cloud & IA)</p>
+                  <p className="text-gray-500">Senac-GO / Cisco (Redes & Cibersegurança)</p>
                 </div>
               </div>
             </section>
@@ -89,7 +98,7 @@ const App = () => {
             <section>
               <h2 className="text-xl font-bold text-slate-800 border-b-2 border-blue-500 pb-2 mb-4 uppercase">Sobre Mim</h2>
               <p className="text-gray-700 leading-relaxed text-justify font-medium">
-                Estudante dedicada de TI com foco em desenvolvimento Front-End. Possuo sólida base em lógica de programação e construção de interfaces web modernas, responsivas e eficientes. Busco aplicar meus conhecimentos em projetos reais, utilizando as melhores práticas do ecossistema React.
+                Estudante de Análise e Desenvolvimento de Sistemas com sólida formação complementar. Possuo Residência Tecnológica pelo programa federal Conecta e Capacita (IFMG/CEPEDI/MCTI/SOFTEX), atuando na resolução de desafios práticos de desenvolvimento web. Além da base sólida em Front-End, possuo qualificações em Cloud Computing (AWS), Infraestrutura de Redes e Cibersegurança. Experiência prática acadêmica no desenvolvimento de aplicações com JavaScript, React, Python e modelagem de bancos de dados (Relacionais e Neo4j). Busco oportunidade para aplicar meus conhecimentos técnicos de forma prática.
               </p>
             </section>
 
@@ -98,40 +107,54 @@ const App = () => {
               <div className="space-y-8">
                 <div>
                   <div className="flex justify-between items-baseline mb-2">
-                    <h3 className="text-lg font-bold text-gray-800 tracking-tight">Desenvolvedora Front-End (Projetos)</h3>
+                    <h3 className="text-lg font-bold text-gray-800 tracking-tight">Residente Front-End</h3>
+                    <span className="text-xs font-bold bg-slate-200 text-slate-700 px-2 py-1 rounded">05/2026 - 07/2026</span>
+                  </div>
+                  <p className="text-blue-600 font-medium mb-3 italic text-sm">IFMG / CEPEDI (Programa Conecta e Capacita)</p>
+                  <ul className="list-disc pl-5 text-sm text-gray-600 space-y-2">
+                    <li>Atuação em Residência Tecnológica com dedicação de 56 horas voltadas exclusivamente ao desenvolvimento e aplicação prática de soluções web.</li>
+                    <li>Resolução de desafios tecnológicos práticos em parceria com órgãos federais (MCTI e SOFTEX).</li>
+                    <li>Aplicação de conceitos avançados de Front-End utilizando <strong>React</strong> e <strong>Vite</strong>.</li>
+                    <li>Controle de versionamento de código e colaboração técnica utilizando <strong>Git</strong> e <strong>GitHub</strong>.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <div className="flex justify-between items-baseline mb-2">
+                    <h3 className="text-lg font-bold text-gray-800 tracking-tight">Práticas Acadêmicas e Autônomas</h3>
                     <span className="text-xs font-bold bg-slate-200 text-slate-700 px-2 py-1 rounded">2024 - Presente</span>
                   </div>
-                  <p className="text-blue-600 font-medium mb-3 italic text-sm">Estudos e Práticas Independentes</p>
+                  <p className="text-blue-600 font-medium mb-3 italic text-sm">Desenvolvimento e Engenharia</p>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-2">
-                    <li>Desenvolvimento de SPAs (Single Page Applications) utilizando <strong>React</strong> e <strong>Vite</strong>.</li>
-                    <li>Criação de layouts responsivos.</li>
-                    <li>Estilização avançada com <strong>Tailwind CSS</strong>.</li>
-                    <li>Aplicação de conceitos de <strong>CSS Grid</strong> e <strong>Flexbox</strong> para interfaces complexas.</li>
+                    <li>Desenvolvimento de aplicações completas e SPAs estruturadas com deploy ativo via <strong>Vercel</strong>.</li>
+                    <li>Criação de lógicas de programação e pequenos jogos utilizando a linguagem <strong>Python</strong>.</li>
+                    <li>Modelagem e análise de dados utilizando estruturas relacionais (<strong>SQL</strong>) e bancos orientados a grafos (<strong>Neo4j / Cypher</strong>).</li>
+                    <li>Uso de boas práticas de Engenharia de Software com análise de requisitos, diagramas ER, MER e documentações em <strong>UML</strong>.</li>
                   </ul>
                 </div>
               </div>
             </section>
 
-            {/* DIFERENCIAIS - VERSÃO FINAL COMBINADA */}
+            {/* DIFERENCIAIS */}
             <section>
               <h2 className="text-xl font-bold text-slate-800 border-b-2 border-blue-500 pb-2 mb-4 uppercase">Diferenciais</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 
                 <div className="p-5 bg-gray-50 rounded-lg border-l-4 border-blue-500 shadow-sm">
                   <h3 className="font-bold text-slate-900 text-lg mb-1">
-                    Layouts modernos
+                    Cloud & IA (AWS)
                   </h3>
                   <p className="text-xs text-gray-600 italic">
-                    Domínio de ferramentas que garantem performance e design fluido em qualquer tela.
+                    Conhecimentos sólidos em infraestrutura de computação em nuvem e inteligência artificial generativa pela AWS Academy.
                   </p>
                 </div>
 
                 <div className="p-5 bg-gray-50 rounded-lg border-l-4 border-blue-500 shadow-sm">
                   <h3 className="font-bold text-slate-900 text-lg mb-1">
-                    Foco em performance
+                    Redes & Segurança
                   </h3>
                   <p className="text-xs text-gray-600 italic">
-                    Uso de Vite para um fluxo de desenvolvimento rápido e otimizado.
+                    Formação em infraestrutura de redes e segurança digital pelas trilhas oficiais da Cisco Networking Academy e Senac-GO.
                   </p>
                 </div>
 
