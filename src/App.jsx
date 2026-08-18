@@ -113,7 +113,7 @@ const App = () => {
                   <p className="text-blue-600 font-medium mb-3 italic text-sm">IFMG / CEPEDI (Programa Conecta e Capacita)</p>
                   <ul className="list-disc pl-5 text-sm text-gray-600 space-y-2">
                     <li>Atuação em Residência Tecnológica com dedicação de 56 horas voltadas exclusivamente ao desenvolvimento e aplicação prática de soluções web.</li>
-                    <li>Resolução de desafios tecnológicos práticos em parceria com órgãos federais (MCTI e SOFTEX).</li>
+                    <li>Resolução de desafios tecnológicos práticos com empresas parceiras.</li>
                     <li>Aplicação de conceitos avançados de Front-End utilizando <strong>React</strong> e <strong>Vite</strong>.</li>
                     <li>Controle de versionamento de código e colaboração técnica utilizando <strong>Git</strong> e <strong>GitHub</strong>.</li>
                   </ul>
